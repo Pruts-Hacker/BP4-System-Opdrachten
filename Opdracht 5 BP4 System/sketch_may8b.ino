@@ -32,7 +32,7 @@ void ButtonPressed(){
     MoveServo(0, 1000);  // Draai de servomotor terug naar 0° in 1s
   } else if (buttonState2 == HIGH) {
     MoveServo(120, 500);  // Draai de servomotor naar 120° in 0.5s
-    MoveServo(0, 1000);  // Draai de servomotor terug naar 0° in 1s
+    MoveServo(0, 500);  // Draai de servomotor terug naar 0° in 1s
   }
 }
 void MoveServo(int angle, int duration) {
